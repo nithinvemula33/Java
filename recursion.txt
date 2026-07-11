@@ -1,1 +1,14 @@
 ---Recursion---
+def : when a function calls itself until a specific condition met. 
+There are two types of recursions
+-->parameterised 
+-->functional
+
+**Parameterised**
+--> it doesn't return.
+-->carry answer is in the parameter.
+-->built answer before recusive call.
+
+**Functional**
+-->it returns value.
+-->answer built while returning.
