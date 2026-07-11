@@ -11,4 +11,5 @@ There are two types of recursions
 
 **Functional**
 -->it returns value.
+-->each recursive call returns a value.
 -->answer built while returning.
