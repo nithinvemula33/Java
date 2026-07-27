@@ -1,2 +1,30 @@
 ---Hashing---
 ->store freqency and fetch
+
+->for int in a array
+=>In main array range aproximate to 10^6.
+=>Globaly it is 10^7.
+
+->for bool in a array
+=>In main its 10^7.
+=>Globaly it is 10^8.
+
+// Create a HashMap
+        HashMap<String, Integer> map = new HashMap<>();
+
+// Add key-value pairs
+        map.put("Alice", 25);
+
+ // Retrieve a value
+        System.out.println("Alice's age: " + map.get("Alice"));
+
+// Check if a key exists
+        if (map.containsKey("Bob")) 
+
+// Remove a key
+        map.remove("Charlie");
+
+// Iterate over keys and values
+        for (String key : map.keySet()) {
+            System.out.println(key + " -> " + map.get(key));
+        }
