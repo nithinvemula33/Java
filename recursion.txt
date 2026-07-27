@@ -21,3 +21,9 @@ There are two types of recursions
 #check palindrom
 ->check(s,start)
 => return(s,Start+1)
+
+***Multiple Recursion***
+->using more than one recursion
+
+#fibonacci
+->return f(n-1)+f(n-2)
