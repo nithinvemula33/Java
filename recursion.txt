@@ -26,5 +26,5 @@ There are two types of recursions
 ->more than one recursions
 ->works when one ended
 
-#fibonacci
+#fibonaccii
 ->return f(n-1)+f(n-2)
