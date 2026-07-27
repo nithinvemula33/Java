@@ -23,7 +23,8 @@ There are two types of recursions
 => return(s,Start+1)
 
 ***Multiple Recursion***
-->using more than one recursion
+->more than one recursions
+->works when one ended
 
 #fibonacci
 ->return f(n-1)+f(n-2)
