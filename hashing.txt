@@ -15,11 +15,16 @@
 // Add key-value pairs
         map.put("Alice", 25);
 
- // Retrieve a value
+ // Retrieve a value                        _________________
         System.out.println("Alice's age: " + map.get("Alice"));
 
 // Check if a key exists
-        if (map.containsKey("Bob")) 
+        if (map.containsKey("Bob"))
+
+// Count frequencies
+        for (int num : arr) {
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
+        } 
 
 // Remove a key
         map.remove("Charlie");
