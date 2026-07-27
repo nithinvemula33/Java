@@ -16,3 +16,4 @@ There are two types of recursions
 
 # Reverse of array in recursion
 -> reverse(arr,start,end)
+  =>reverse(arr,start+1,end-1)
