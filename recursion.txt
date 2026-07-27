@@ -15,5 +15,9 @@ There are two types of recursions
 -->answer built while returning.
 
 # Reverse of array in recursion
--> reverse(arr,start,end)
-  =>reverse(arr,start++,end--)
+-> reverse(arr,start)
+  =>reverse(arr,start+1)
+
+#check palindrom
+->check(s,start)
+=> return(s,Start+1)
