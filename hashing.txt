@@ -1,1 +1,2 @@
 ---Hashing---
+->store freqency and fetch
