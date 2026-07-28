@@ -2,7 +2,13 @@
 
 **Selection Sort**
 
-->Assume the initial element as min and swap with the actual min.
+-->"Find the smallest, then swap".
+
+*Logic*
+
+-->Find the smallest element in the unsorted part.
+-->Swap it with the first unsorted position.
+-->Repeat.
 
 //code.
  for(int i=0;i<n;i++)
@@ -20,7 +26,13 @@
 
 **Bubble Sort**
 
-->push the max to last by adjacent swaps.
+->push the max to last by adjacent swaps. or Air bubbles in water rise to the surface.
+
+*Logic*
+
+-->Compare adjacent elements.
+-->Swap if they are in the wrong order.
+-->After one pass, the largest element reaches the end.
 
 //code
 for(int i=n-1;i>0;i--)
@@ -38,7 +50,14 @@ for(int i=n-1;i>0;i--)
 
 **Insertion Sort**
 
-->Takes an element and places it in its correct order.
+->Arranging playing cards in your hand.
+
+*Logic*
+
+-->Pick one element.
+-->Compare it with the sorted left side.
+-->Shift larger elements to the right.
+-->Insert the picked element in the correct position.
 
 // Code
 for(int i=0;i<n;i++)
