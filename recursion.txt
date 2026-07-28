@@ -5,14 +5,16 @@ There are two types of recursions
 -->functional
 
 **Parameterised**
---> it doesn't return.
--->carry answer is in the parameter.
--->built answer before recusive call.
+-->Uses extra parameters to carry the answer.
+-->Base case usually prints or returns the accumulated result.
+-->Answer builts before the recursive call.
+-->Easier for problems where you keep updating a result.
 
 **Functional**
--->it returns value.
--->each recursive call returns a value.
--->answer built while returning.
+-->Returns the answer from each recursive call.
+-->Base case returns a simple value.
+-->Answer builts after the recursive call returns.
+-->Used for problems where results are built from subproblems.
 
 # Reverse of array in recursion
 -> reverse(arr,start)
