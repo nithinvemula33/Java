@@ -33,3 +33,6 @@
         for (String key : map.keySet()) {
             System.out.println(key + " -> " + map.get(key));
         }
+   ==>.keySet():when you only need the keys.
+   ==>.values():when you only need the values.
+   ==>.entrySet():when you need both keys and values.
