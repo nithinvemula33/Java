@@ -30,3 +30,46 @@ There are two types of recursions
 
 #fibonaccii
 ->return f(n-1)+f(n-2)
+
+*** Recusion subsequences***
+
+//code for print all the subsequence.
+
+static void subseq(ArrayList<Integer> list,int[] arr,int i,int n)
+{
+    if(i==n)
+    {
+        System.out.println(list);
+        return;
+    }
+      list.add(arr[i]);
+      subseq(list,arr,i+1,n);
+      list.remove(list.size()-1);
+      subseq(list,arr,i+1,n);
+}
+
+//code for print the subsequence where its sum =k.
+
+static boolean subseq(ArrayList<Integer> list,int[] arr,int i,int n,int s,int sum)
+{
+  if(i==n)
+    {
+      if(sum==s)
+        {
+          System.out.println(list);
+          return true;
+        }
+          else return false;
+    }
+      list.add(arr[i]);
+      s=s+arr[i];
+      if(subseq(list,arr,i+1,n,s,sum)==true) // pick
+      {return true;}
+        
+      s=s-arr[i];
+      list.remove(list.size()-1); // backtrack
+        
+      if(subseq(list,arr,i+1,n,s,sum)==true) //not pick
+      {return true;}
+      return false;
+}        
