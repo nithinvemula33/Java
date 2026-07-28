@@ -73,3 +73,27 @@ static boolean subseq(ArrayList<Integer> list,int[] arr,int i,int n,int s,int su
       {return true;}
       return false;
 }        
+
+//code for count the subsequence whose sum =k.
+
+static int subseq(ArrayList<Integer> list,int[] arr,int i,int n,int s,int sum)
+{
+  if(i==n)
+    {
+      if(sum==s)
+        {
+          return 1;
+        }
+          return 0;
+    }
+  list.add(arr[i]);
+  s=s+arr[i];
+  int l=subseq(list,arr,i+1,n,s,sum);
+       
+  s=s-arr[i];
+  list.remove(list.size()-1);
+      
+  int r=subseq(list,arr,i+1,n,s,sum);
+        
+  return l+r;
+}
