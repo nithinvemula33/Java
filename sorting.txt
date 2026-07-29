@@ -84,9 +84,13 @@ for(int i=0;i<n;i++)
 **Merge Sort**
 
 -->Divide and Merge.
+-->Divide: Split the array into two halves.
+-->Conquer: Recursively sort both halves.
+-->Combine: Merge the two sorted halves.
 
-**Time complexity**
--->O(N*log ​N)
+# Time Complexity: O(n log n) in the best, average, and worst cases.
+
+# Space Complexity: O(n) (not in-place).
 
 //code
 
@@ -133,4 +137,18 @@ static void merge(int[] arr,int l,int h,int mid)
         arr[i]=nums[i-l];
     }
 }
+
+***Quick Sort***
+
+--> Divide and Conquer.
+--> Divide: Choose a pivot and partition the array into elements smaller and larger than the pivot.
+--> Conquer: Recursively sort the left and right partitions.
+--> Combine: No explicit merge is needed; the array becomes sorted after recursion.
+
+# Time Complexity:
+--> Best: O(n log n)
+--> Average: O(n log n)
+--> Worst: O(n²) (when the pivot is chosen poorly)
+
+# Space Complexity: O(log n) (recursive stack), in-place.
 
