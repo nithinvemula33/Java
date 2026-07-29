@@ -152,3 +152,40 @@ static void merge(int[] arr,int l,int h,int mid)
 
 # Space Complexity: O(log n) (recursive stack), in-place.
 
+//code
+
+static int[] qsort(int[] arr,int l,int h)
+{
+    if(l<h)
+    {
+        int pin=q(arr,l,h);
+        qsort(arr,l,pin);
+        qsort(arr,pin+1,h);
+           
+    }
+    return arr;
+}
+static int q(int[] arr,int l,int h)
+{
+    int i=l;
+    int j=h;
+    int pivot=l;
+    while(i<j)
+    {
+        while(arr[i]<=arr[pivot] && i<h)
+        { i++;}
+        while(arr[j]>=arr[pivot] && j>l)
+        { j--;}
+        if(i<j)
+        {
+            int t=arr[i];
+            arr[i]=arr[j];
+            arr[j]=t;
+        }
+        int t=arr[j];
+        arr[j]=arr[l];
+        arr[l]=t;
+    }
+    return j;
+}
+
