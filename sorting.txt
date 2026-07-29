@@ -11,7 +11,7 @@
 -->Repeat.
 
 **Time complexity**
--->O(n^2)
+-->O(N^2)
 
 //code.
  for(int i=0;i<n;i++)
@@ -38,7 +38,7 @@
 -->After one pass, the largest element reaches the end.
 
 **Time complexity**
--->O(n^2)
+-->O(N^2)
 
 //code
 for(int i=n-1;i>0;i--)
@@ -66,7 +66,7 @@ for(int i=n-1;i>0;i--)
 -->Insert the picked element in the correct position.
 
 **Time complexity**
--->O(n^2)
+-->O(N^2)
 
 // Code
 for(int i=0;i<n;i++)
@@ -86,7 +86,7 @@ for(int i=0;i<n;i++)
 -->Divide and Merge.
 
 **Time complexity**
--->O(n*log2 ​n)
+-->O(N*log ​N)
 
 //code
 
