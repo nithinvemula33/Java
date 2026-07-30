@@ -159,7 +159,7 @@ static int[] qsort(int[] arr,int l,int h)
     if(l<h)
     {
         int pin=q(arr,l,h);
-        qsort(arr,l,pin);
+        qsort(arr,l,pin-1);
         qsort(arr,pin+1,h);
            
     }
