@@ -9,30 +9,3 @@
 =>In main its 10^7.
 =>Globaly it is 10^8.
 
-// Create a HashMap
-        HashMap<String, Integer> map = new HashMap<>();
-
-// Add key-value pairs
-        map.put("Alice", 25);
-
- // Retrieve a value                        _________________
-        System.out.println("Alice's age: " + map.get("Alice"));
-
-// Check if a key exists
-        if (map.containsKey("Bob"))
-
-// Count frequencies
-        for (int num : arr) {
-            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
-        } 
-
-// Remove a key
-        map.remove("Charlie");
-
-// Iterate over keys and values
-        for (String key : map.keySet()) {
-            System.out.println(key + " -> " + map.get(key));
-        }
-   ==>.keySet():when you only need the keys.
-   ==>.values():when you only need the values.
-   ==>.entrySet():when you need both keys and values.
