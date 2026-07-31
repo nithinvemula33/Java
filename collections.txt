@@ -42,35 +42,27 @@
 import java.util.ArrayList;
 ArrayList<DataType> list = new ArrayList<>();
 
-#example
+// Add elements
+    fruits.add("Apple");
 
-import java.util.ArrayList;
+// Display elements
+    System.out.println(fruits);
 
-public class Main {
-    public static void main(String[] args) {
-        ArrayList<String> fruits = new ArrayList<>();
+// Access an element
+    System.out.println(fruits.get(1));
 
-        // Add elements
-        fruits.add("Apple");
+// Update an element
+    fruits.set(1, "Mango");
 
-        // Display elements
-        System.out.println(fruits);
+// Remove an element
+    fruits.remove("Orange");
 
-        // Access an element
-        System.out.println(fruits.get(1));
+// Size of the list
+    System.out.println(fruits.size());
 
-        // Update an element
-        fruits.set(1, "Mango");
-
-        // Remove an element
-        fruits.remove("Orange");
-
-        // Size of the list
-        System.out.println(fruits.size());
-
-        // Iterate through the list
-        for (String fruit : fruits) {
-            System.out.println(fruit);
-        }
+// Iterate through the list
+    for (String fruit : fruits)
+    {
+      System.out.println(fruit);
     }
-}
+    
