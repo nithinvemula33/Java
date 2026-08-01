@@ -1,5 +1,7 @@
 ****ArrayList****
 
+<<<Characteristics>>>
+
 -->ArrayList is a resizable array.
 -->Stores elements in insertion order.
 -->Allows duplicate elements.
@@ -38,6 +40,8 @@ ArrayList<DataType> list = new ArrayList<>();
     
 
 ****HashMap****
+
+<<<Characteristics>>>
 
 -->Stores data as key → value pairs.
 -->Keys are unique.
