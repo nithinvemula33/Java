@@ -39,6 +39,14 @@ ArrayList<DataType> list = new ArrayList<>();
 
 ****HashMap****
 
+-->Stores data as key → value pairs.
+-->Keys are unique.
+-->Values can be duplicated.
+-->Allows one null key.
+-->Allows multiple null values.
+-->Does not maintain insertion order.
+-->Average time complexity for put(), get(), and remove() is O(1).
+
 // Create a HashMap
         HashMap<String, Integer> map = new HashMap<>();
 
