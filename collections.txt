@@ -59,6 +59,9 @@ ArrayList<DataType> list = new ArrayList<>();
 // Remove a key
         map.remove("Charlie");
 
+// size of map
+        System.out.println(map.size());
+
 // Iterate over keys and values
         for (String key : map.keySet()) {
             System.out.println(key + " -> " + map.get(key));
