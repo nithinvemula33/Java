@@ -1,6 +1,6 @@
 ****ArrayList****
 
-<<<Characteristics>>>
+//Characteristics
 
 -->ArrayList is a resizable array.
 -->Stores elements in insertion order.
