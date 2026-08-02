@@ -41,7 +41,7 @@ ArrayList<DataType> list = new ArrayList<>();
 
 ****HashMap****
 
-<<<Characteristics>>>
+//Characteristics
 
 -->Stores data as key → value pairs.
 -->Keys are unique.
