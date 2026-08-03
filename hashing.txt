@@ -5,6 +5,10 @@
 
 *how hashing works
 
+-->A key is passed to a hash function.
+-->The hash function generates a hash code (an integer).
+-->The hash code determines the index (bucket) where the data is stored.
+-->When retrieving data, the same hash function computes the index, making lookup very fast.
 
 #for range int in a array
 =>In main array range aproximate to 10^6.
