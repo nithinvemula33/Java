@@ -1,12 +1,16 @@
 ---Hashing---
+
 -->Hashing in Java is a technique used to store and retrieve data efficiently using a hash function.
 -->It is widely used in collections like HashMap, HashSet, and Hashtable.
 
-->for int in a array
+*how hashing works
+
+
+#for range int in a array
 =>In main array range aproximate to 10^6.
 =>Globaly it is 10^7.
 
-->for bool in a array
+#for range boolean in a array
 =>In main its 10^7.
 =>Globaly it is 10^8.
 
