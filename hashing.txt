@@ -1,5 +1,6 @@
 ---Hashing---
-->store freqency and fetch
+-->Hashing in Java is a technique used to store and retrieve data efficiently using a hash function.
+-->It is widely used in collections like HashMap, HashSet, and Hashtable.
 
 ->for int in a array
 =>In main array range aproximate to 10^6.
