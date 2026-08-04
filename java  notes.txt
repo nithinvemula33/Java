@@ -183,3 +183,6 @@ Runtime Data Areas store program data, and the Execution Engine executes the byt
 
 for int minimum Integer.MIN_VALUE.
 for int maximum Integer.MAX_VALUE.
+
+*String*
+Character.isDigit(); //for checking it is number.
