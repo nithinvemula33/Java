@@ -48,6 +48,21 @@ static void subseq(ArrayList<Integer> list,int[] arr,int i,int n)
       subseq(list,arr,i+1,n);
 }
 
+//code for all possible unique subsequence .
+
+static void subset(int i,int[] arr,List<List<Integer>> list,List<Integer> ds)
+{
+  int n=arr.length;
+  list.add(new ArrayList<Integer>(ds));
+  for(int j=i;j<n;j++)
+  {
+    if(j!=i&&arr[j]==arr[j-1]) continue;
+    ds.add(arr[j]);
+    subset(j+1,arr,list,ds);
+    ds.remove(ds.size()-1);
+  }
+}
+
 //code for print the subsequence where its sum =k.
 
 static boolean subseq(ArrayList<Integer> list,int[] arr,int i,int n,int s,int sum)
