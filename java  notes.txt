@@ -180,3 +180,5 @@ Stores:
     JVM Architecture consists of the Class Loader Subsystem, Runtime Data Areas (Method Area, Heap, Java Stack, PC Register, Native Method Stack),
 Execution Engine (Interpreter and JIT Compiler), Native Method Interface (JNI), and Native Method Libraries. The Class Loader loads bytecode, 
 Runtime Data Areas store program data, and the Execution Engine executes the bytecode to run Java applications.
+
+for int minimum Integer.MIN_VALUE.
