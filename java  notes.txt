@@ -182,4 +182,4 @@ Execution Engine (Interpreter and JIT Compiler), Native Method Interface (JNI), 
 Runtime Data Areas store program data, and the Execution Engine executes the bytecode to run Java applications.
 
 for int minimum Integer.MIN_VALUE.
-for int maxmum Integer.MAX_VALUE.
+for int maximum Integer.MAX_VALUE.
