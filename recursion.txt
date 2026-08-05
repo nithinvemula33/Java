@@ -35,6 +35,10 @@ There are two types of recursions
 
 # Pick, not pick pattern.
 
+//leetcode questions.
+
+
+
 //code for print all the subsequence.
 
 static void subseq(ArrayList<Integer> list,int[] arr,int i,int n)
@@ -64,6 +68,9 @@ static void subset(int i,int[] arr,List<List<Integer>> list,List<Integer> ds)
     ds.remove(ds.size()-1);
   }
 }
+
+39. Combination Sum.
+40. Combination sum II.
 
 //code for print the subsequence where its sum =k.
 
