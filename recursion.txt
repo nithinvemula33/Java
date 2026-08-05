@@ -37,7 +37,7 @@ There are two types of recursions
 
 //leetcode questions.
 
-
+90.Subset II.
 
 //code for print all the subsequence.
 
@@ -71,6 +71,7 @@ static void subset(int i,int[] arr,List<List<Integer>> list,List<Integer> ds)
 
 39. Combination Sum.
 40. Combination sum II.
+216. Combination sum III.
 
 //code for print the subsequence where its sum =k.
 
